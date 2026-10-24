@@ -1,0 +1,76 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    gap: 25px;
+}
+
+/* Heading */
+h1 {
+    font-size: 45px;
+    color: #00e5ff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    text-shadow: 0 0 15px #00e5ff;
+}
+
+/* Counter Number */
+#number,
+#nummber {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px 60px;
+    border: 2px solid #00e5ff;
+    border-radius: 20px;
+
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.3);
+}
+
+/* Buttons */
+button {
+    padding: 14px 30px;
+    margin: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #00e5ff;
+    color: #141e30;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+button:hover {
+    background: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 5px 20px rgba(0, 229, 255, 0.4);
+}
+
+/* Button Click Effect */
+button:active {
+    transform: scale(0.95);
+}
